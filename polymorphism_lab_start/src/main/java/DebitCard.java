@@ -9,10 +9,7 @@ public class DebitCard extends PaymentCard{
         this.accountNumber = accountNumber;
 
     }
-//
-//    public String getCardNumber() {
-//        return this.cardNumber;
-//    }
+
 
     public int getSortCode() {
         return this.sortCode;
@@ -21,14 +18,6 @@ public class DebitCard extends PaymentCard{
     public int getAccountNumber() {
         return this.accountNumber;
     }
-
-//    public String getExpiryDate() {
-//        return this.expiryDate;
-//    }
-//
-//    public int getSecurityNumber() {
-//        return this.securityNumber;
-//    }
 
     public String scan() {
         return "Payment Complete";
