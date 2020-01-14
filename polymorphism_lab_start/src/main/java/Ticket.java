@@ -1,4 +1,4 @@
-public class Ticket {
+public class Ticket implements Iscan{
     private String bookingRef;
     private String qrCode;
     private String date;

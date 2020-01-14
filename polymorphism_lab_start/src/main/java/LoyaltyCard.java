@@ -1,4 +1,4 @@
-public class LoyaltyCard {
+public class LoyaltyCard implements Iscan{
     private String barCode;
     private String vendor;
 
